@@ -1,0 +1,55 @@
+body {
+    margin: 4px;
+    font-family: "Times New Roman", serif;
+}
+
+.menu {
+    width: 200px;
+    border-radius: 4px;
+    box-shadow: 4px 3px #aaa;
+}
+
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 15px;
+    background: linear-gradient(to bottom, #d4d4d4, #aaa);
+    color: black;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.menu > ul > li:hover > a,
+.menu > ul > li:focus-within > a {
+    background: linear-gradient(to bottom, #c0c0c0, #858585);
+}
+
+.menu .submenu {
+    display: none;
+}
+
+.menu .submenu a {
+    padding: 11px 5px;
+    background: linear-gradient(to bottom, #ededed, #e2e2e2);
+    text-transform: none;
+    font-weight: normal;
+}
+
+.menu .submenu a:hover,
+.menu .submenu a:focus {
+    background: linear-gradient(to bottom, #c9c9c9, #999);
+}
+
+.menu li:hover > .submenu,
+.menu li:focus-within > .submenu {
+    display: block;
+}
