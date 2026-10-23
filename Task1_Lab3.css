@@ -10,8 +10,8 @@ body {
 
 .site-header {
     height: 87px;
-    background: linear-gradient(to right, #e3f0ff, #add9f3);
-    color: red;
+    background: #6CA47F;
+    color: black;
     text-align: center;
     font: italic 75px Arial, sans-serif;
     white-space: nowrap;
@@ -21,7 +21,7 @@ body {
 .top-menu {
     height: 54px;
     margin: 10px 0 7px;
-    background: linear-gradient(to bottom, #e2f1ff, #a7d4f1);
+    background: #6CA47F;
     border-radius: 4px;
     box-shadow: 4px 4px #a3a3a3;
 }
@@ -33,7 +33,7 @@ body {
     padding: 15px 30px;
     border-right: 1px solid #333;
     border-radius: 4px;
-    background: linear-gradient(to bottom, #e2f0ff, #d9e9f7);
+    background: #6CA47F;
     color: black;
     text-align: center;
     font-weight: bold;
@@ -43,7 +43,7 @@ body {
 }
 
 .top-menu a:hover {
-    background: linear-gradient(to bottom, #c6d7e4, #92b5cc);
+    background: #F5E4BB;
 }
 
 .columns {
@@ -53,7 +53,7 @@ body {
 .left-column, .right-column {
     width: 174px;
     padding: 17px 10px 20px;
-    background: #a9d4f2;
+    background: #6CA47F;
     border-radius: 5px;
     box-shadow: 4px 3px #888;
 }
@@ -69,14 +69,14 @@ body {
 .sidebar-box {
     padding: 0 5px 5px;
     margin-bottom: 8px;
-    background: #deedff;
+    background: #F5E4BB;
     border-radius: 8px;
     box-shadow: 4px 3px #888;
 }
 
 .sidebar-box h2 {
     margin: 0;
-    background: #88c8f0;
+    background: #6CA47F;
     border-radius: 9px;
     font-size: 19px;
     text-align: center;
@@ -99,7 +99,7 @@ body {
     margin: 0 9px;
     padding: 12px 12px 4px;
     border-radius: 5px;
-    background: linear-gradient(to bottom, #e0efff, #a9d5f1);
+    background: linear-gradient(to bottom, #F5E4BB, #6CA47F);
     box-shadow: 4px 3px #888;
 }
 
@@ -131,7 +131,7 @@ body {
     width: 100%;
     height: 100%;
     padding-top: 53px;
-    background: rgba(10, 80, 180, 0.45);
+    background: rgba(108, 164, 127, 0.45);
     color: #fff;
     text-align: center;
     font: bold 20px Arial, sans-serif;
